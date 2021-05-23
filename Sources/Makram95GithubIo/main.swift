@@ -14,9 +14,9 @@ struct Makram95GithubIo: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
-    var name = "Makram95GithubIo"
-    var description = "A description of Makram95GithubIo"
+    var url = URL(string: "https://makram95.github.io")!
+    var name = "Marc Kramers Portfolio"
+    var description = "Portfolio of Marc Kramer"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
