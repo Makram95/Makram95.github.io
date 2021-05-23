@@ -22,7 +22,7 @@ struct Makram95GithubIo: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try Makram95GithubIo().publish(withTheme: .foundation)
+
 try Makram95GithubIo().publish(using: [
     .deploy(using: .gitHub("Makram95/Makram95.github.io", useSSH: false))
 ])
